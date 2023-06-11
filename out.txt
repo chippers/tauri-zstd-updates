@@ -1,0 +1,25 @@
+chip@cancer tauri-zstd-updates % exa --tree --long -B src-tauri/target/aarch64-apple-darwin/release/tauri-zstd-updates
+.rwxr-xr-x 2,388,032 chip 11 Jun 15:41 src-tauri/target/aarch64-apple-darwin/release/tauri-zstd-updates
+
+chip@cancer tauri-zstd-updates % exa --tree --long -B src-tauri/target/aarch64-apple-darwin/release/bundle
+drwxr-xr-x          - chip 11 Jun 15:41 src-tauri/target/aarch64-apple-darwin/release/bundle
+drwxr-xr-x          - chip 11 Jun 15:41 ├── dmg
+.rwxrwxrwx     14,159 chip 11 Jun 15:41 │  ├── bundle_dmg.sh
+.rw-r--r--     98,451 chip 11 Jun 15:03 │  ├── icon.icns
+drwxr-xr-x          - chip 11 Jun 15:41 │  ├── support
+.rw-r--r--      2,376 chip 11 Jun 15:41 │  │  ├── eula-resources-template.xml
+.rw-r--r--      1,828 chip 11 Jun 15:41 │  │  └── template.applescript
+.rw-r--r--@ 1,314,086 chip 11 Jun 15:41 │  └── tauri-zstd-updates_0.1.0_aarch64.dmg
+drwxr-xr-x          - chip 11 Jun 15:44 └── macos
+drwxr-xr-x          - chip 11 Jun 15:41    ├── tauri-zstd-updates.app
+drwxr-xr-x          - chip 11 Jun 15:41    │  └── Contents
+.rw-r--r--      1,012 chip 11 Jun 15:41    │     ├── Info.plist
+drwxr-xr-x          - chip 11 Jun 15:41    │     ├── MacOS
+.rwxr-xr-x  2,388,032 chip 11 Jun 15:41    │     │  └── tauri-zstd-updates
+drwxr-xr-x          - chip 11 Jun 15:41    │     └── Resources
+.rw-r--r--     98,451 chip 11 Jun 15:03    │        └── icon.icns
+.rw-r--r--  2,492,416 chip 11 Jun 15:41    ├── tauri-zstd-updates.app.tar
+.rw-r--r--    913,697 chip 11 Jun 15:41    ├── tauri-zstd-updates.app.tar.br
+.rw-r--r--  1,306,251 chip 11 Jun 15:41    ├── tauri-zstd-updates.app.tar.gz
+.rw-r--r--  1,002,715 chip 11 Jun 15:41    └── tauri-zstd-updates.app.tar.zst
+
