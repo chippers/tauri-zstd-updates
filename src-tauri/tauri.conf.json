@@ -1,0 +1,54 @@
+{
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build",
+    "devPath": "http://localhost:1420",
+    "distDir": "../dist",
+    "withGlobalTauri": false
+  },
+  "package": {
+    "productName": "tauri-zstd-updates",
+    "version": "0.0.0"
+  },
+  "tauri": {
+    "updater": {
+      "active": true,
+      "endpoints": [
+        "https://localhost:8000/updates.json"
+      ],
+      "dialog": true,
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDU3MjMxNEYyNjMzMEM5M0IKUldRN3lUQmo4aFFqVnh6NG01Um90Vmpma2QzdmJqYWFoL1cxL255Qks1aTcra1ZZMExGTE9KdDcK"
+    },
+    "allowlist": {
+      "all": false,
+      "shell": {
+        "all": false,
+        "open": true
+      }
+    },
+    "bundle": {
+      "active": true,
+      "targets": "all",
+      "identifier": "sh.chip.tauri-zstd-updates",
+      "icon": [
+        "icons/32x32.png",
+        "icons/128x128.png",
+        "icons/128x128@2x.png",
+        "icons/icon.icns",
+        "icons/icon.ico"
+      ]
+    },
+    "security": {
+      "csp": null
+    },
+    "windows": [
+      {
+        "fullscreen": false,
+        "resizable": true,
+        "title": "tauri-zstd-updates",
+        "width": 800,
+        "height": 600
+      }
+    ]
+  }
+}
